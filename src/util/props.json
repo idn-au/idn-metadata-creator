@@ -45,8 +45,8 @@
         "description": "Information about rights held in and over the resource."
     },
     "accessRights": {
-        "qname": "dcat:accessRights",
-        "uri": "http://www.w3.org/ns/dcat#accessRights",
+        "qname": "dcterms:accessRights",
+        "uri": "http://purl.org/dc/terms/accessRights",
         "description": ""
     },
     "spatialGeometry": {

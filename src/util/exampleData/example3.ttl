@@ -19,7 +19,7 @@ _:b3 dcat:hadRole <3>;
     dcat:theme <3>;
     dcat:distribution _:b2;
     dcterms:temporal _:b1;
-    dcat:accessRights <metadataOnly>;
+    dcterms:accessRights <metadataOnly>;
     dcterms:rights "rights 3";
     dcterms:license <https://example.com/cc4>;
     dcterms:issued "2022-12-03"^^xsd:date;

@@ -576,7 +576,7 @@ watch(() => data.value.rights, (newValue, oldValue) => {
 });
 
 watch(() => data.value.accessRights, (newValue, oldValue) => {
-    updateTriple(newValue, "dcat:accessRights", namedNode(newValue));
+    updateTriple(newValue, "dcterms:accessRights", namedNode(newValue));
 });
 
 watch(calcGeometry, (newValue, oldValue) => {
@@ -831,7 +831,7 @@ function loadRDF(e) {
             data.value.license = q.object.value;
         } else if (q.predicate.value === loadedQname("dcterms:rights")) {
             data.value.rights = q.object.value;
-        } else if (q.predicate.value === loadedQname("dcat:accessRights")) {
+        } else if (q.predicate.value === loadedQname("dcterms:accessRights")) {
             data.value.accessRights = q.object.value;
         } else if (q.predicate.value === loadedQname("dcterms:spatial")) {
             if (q.object.termType === "NamedNode") {
